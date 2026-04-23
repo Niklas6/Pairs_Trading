@@ -1,0 +1,25 @@
+ticker,company,category
+ADI,Analog Devices,Analog and Embedded
+MCHP,Microchip Technology,Analog and Embedded
+MPWR,Monolithic Power Systems,Analog and Embedded
+NXPI,NXP Semiconductors,Analog and Embedded
+ON,ON Semiconductor,Analog and Embedded
+TXN,Texas Instruments,Analog and Embedded
+QQQ,Invesco QQQ Trust,Benchmarks
+SPY,SPDR S&P 500 ETF Trust,Benchmarks
+SMH,VanEck Semiconductor ETF,Benchmarks
+SOXX,iShares Semiconductor ETF,Benchmarks
+AMD,Advanced Micro Devices,Compute and AI
+AVGO,Broadcom,Compute and AI
+INTC,Intel,Compute and AI
+MRVL,Marvell Technology,Compute and AI
+NVDA,NVIDIA,Compute and AI
+ASML,ASML Holding,Equipment and Manufacturing
+AMAT,Applied Materials,Equipment and Manufacturing
+KLAC,KLA Corporation,Equipment and Manufacturing
+LRCX,Lam Research,Equipment and Manufacturing
+TER,Teradyne,Equipment and Manufacturing
+MU,Micron Technology,Memory
+QRVO,Qorvo,Wireless and RF
+QCOM,Qualcomm,Wireless and RF
+SWKS,Skyworks Solutions,Wireless and RF
