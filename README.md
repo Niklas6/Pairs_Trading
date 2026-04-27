@@ -1,24 +1,34 @@
-**Semiconductor Pairs Trading Research Pipeline**
+# Semiconductor Pairs Trading Research Pipeline
 
-This project is a Python-based research pipeline for exploring a simple pairs trading strategy in the semiconductor sector. It downloads historical market data, analyzes relationships between stocks, builds a rule-based mean-reversion strategy, and evaluates its performance on a separate out-of-sample trading period.
+A Python-based quantitative research project investigating a simple statistical pairs trading strategy within the semiconductor sector. The project implements an end-to-end research workflow covering market data collection, data cleaning, exploratory analysis, signal construction, strategy implementation, and out-of-sample evaluation.
 
-The goal of the project is not to claim a profitable production strategy, but to demonstrate the ability to design and implement a complete quantitative research workflow. The repository covers data collection, exploratory analysis, strategy construction, and backtest evaluation using real equity price data.
+The strategy tests whether a basic mean-reversion framework can identify relative mispricing between highly liquid semiconductor equities. Candidate pairs are selected using exploratory price and correlation analysis, then evaluated using a rule-based long/short strategy on a separate trading period.
 
-The strategy focuses on highly liquid, well-observed semiconductor stocks. As expected, results are modest and inconsistent out of sample. This is an important part of the project: simple models are unlikely to produce strong predictive power in efficient markets, especially on widely followed stocks. The value of the project is therefore in the reproducible coding pipeline, the structure of the analysis, and the critical evaluation of model limitations.
+The objective of the project is not to present a production-ready or consistently profitable trading system. Instead, it demonstrates practical quantitative research skills: building a reproducible research pipeline, working with real equity price data, separating in-sample analysis from out-of-sample testing, and interpreting weak or inconsistent performance with appropriate caution.
 
-Project Workflow
-Download and clean historical semiconductor stock data.
-Split the data into an analysis period and a trading period.
-Explore correlations and candidate stock pairs.
-Build a simple threshold-based pairs trading model.
-Evaluate strategy behavior across selected pairs.
-Repository Structure
-S1_Get_Data.ipynb – downloads and prepares market data
-S2_Data_analysis.ipynb – explores correlations and candidate pairs
-S3_Pairs_trading.py – implements the core trading strategy
-S4_Evaluation.ipynb – evaluates the strategy on selected pairs
-Data/ – processed input datasets used by the notebooks and strategy
-Key Takeaway
-This project shows how to build a small end-to-end quantitative research system in Python. Even though the trading results are not strong, the project demonstrates practical coding skills in data handling, analysis, model implementation, and evaluation, while also presenting the results with appropriate caution and realism.
+## What This Project Demonstrates
 
-If you want, I can turn this into a full polished README.md with sections like Installation, Usage, Results, and Future Improvements.
+- Building a structured multi-stage research pipeline in Python
+- Downloading and organizing historical market data
+- Performing exploratory analysis to identify candidate trading pairs
+- Constructing and testing a simple mean-reversion trading signal
+- Implementing a rule-based strategy
+- Separating research and trading periods for out-of-sample evaluation
+
+## Workflow
+
+1. Download and prepare historical semiconductor stock data
+2. Split the dataset into analysis and trading periods
+3. Explore relationships between stock prices and returns
+4. Select candidate pairs for relative-value testing
+5. Implement a threshold-based pairs trading model
+6. Evaluate results across multiple stock pairs
+
+## Repository Structure
+
+```text
+S1_Get_Data.ipynb       # Downloads and prepares market data
+S2_Data_analysis.ipynb  # Explores relationships between stocks and identifies candidate pairs
+S3_Pairs_trading.py     # Contains the core pairs trading strategy implementation on the analysis data and test data set
+S4_Evaluation.ipynb     # Evaluates strategy performance on selected pairs
+Data/                   # Stores processed datasets used in the project
