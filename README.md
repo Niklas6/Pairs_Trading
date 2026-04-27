@@ -33,4 +33,3 @@ S3_Pairs_trading.py     # Contains the core pairs trading strategy implementatio
 S4_Evaluation.ipynb     # Evaluates strategy performance on selected pairs
 Data/                   # Stores processed datasets used in the project
 ```
-test
