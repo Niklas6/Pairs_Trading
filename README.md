@@ -31,5 +31,6 @@ S1_Get_Data.ipynb       # Downloads and prepares market data
 S2_Data_analysis.ipynb  # Explores relationships between stocks and identifies candidate pairs
 S3_Pairs_trading.py     # Contains the core pairs trading strategy implementation on the analysis data and test data set
 S4_Evaluation.ipynb     # Evaluates strategy performance on selected pairs
-Data/                   # Stores processed datasets used in the project```
+Data/                   # Stores processed datasets used in the project
+```
 test
